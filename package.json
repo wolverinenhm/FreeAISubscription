@@ -1,0 +1,19 @@
+{
+  "name": "free-ai-stack",
+  "version": "1.0.0",
+  "description": "Gemini, Claude and ChatGPT at $0.00 through the free tiers that actually exist, plus a zero-dependency router with automatic fallback across free AI APIs.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "bin": { "freeai": "src/cli.js" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "providers": "node src/cli.js providers",
+    "doctor": "node src/cli.js doctor",
+    "test": "node --test"
+  },
+  "keywords": [
+    "free-tier", "gemini", "claude", "chatgpt", "openrouter", "groq",
+    "cerebras", "github-models", "ollama", "llm", "zero-dependency"
+  ]
+}
